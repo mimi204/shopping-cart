@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>GO MY SHOP</title>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+        <link href="style.css" rel="stylesheet"> <!--style.css-->
+    </head>
+
+    <body>
+        <header><img src="doc/head.png" style="width: 70vw" height="400px" class="center"></header>
+        <h1></h1>
+    <table>
+  <tr>
+    <th>Checkout</th>
+    <th>Product</th>
+    <th>Quantity</th>
+    <th>Unit price</th>
+    <th>Price</th>
+    <th>Like</th>
+    <th>Delete</th>
+  </tr>
+
+
+
+  <tr>
+    <td><input type="checkbox" class="check"></td>
+    <td><img class="product" src="https://beautystore.tn/9443-thickbox_default/palette-fard-a-paupiere-reloaded-basic-mattes.jpg"></td>
+    <td><input type="text" value="0" class="quantity" style="color: aliceblue;"><button class="add" >+</button><button class="remove">-</button></td>
+    <td class="unitprice">30</td>
+    <td  class="price">0</td>
+    <td><i class="fas fa-heart fa-2x"></i></td>
+    <td><button class="remove-product" onclick="remove()" >Remove</button></td>
+  </tr> 
+
+  <tr>
+    <td><input type="checkbox" class="check"></td>
+    <td><img class="product" src="https://beautystore.tn/5156-home_default/fard-a-paupiere-mono-melted-chrome.jpg"></td>
+    <td><input type="text" value="0" class="quantity" style="color: aliceblue;"><button class="add">+</button><button class="remove">-</button></td>
+    <td class="unitprice">55</td>
+    <td class="price">0</td>
+    <td><i class="fas fa-heart fa-2x" "></i></td>
+    <td><button class="remove-product"  >Remove</button></td>
+  </tr>
+
+
+  <tr>
+    <td><input type="checkbox" class="check"></td>
+    <td><img class="product" src="https://beautystore.tn/2175-home_default/fond-de-teint-hd-liquid-coverage-foundation.jpg"></td>
+    <td><input type="text" value="0" class="quantity" style="color: aliceblue;"><button class="add">+</button><button class="remove">-</button></td>
+    <td class="unitprice">35</td>
+    <td class="price" >0</td>
+    <td><i class="fas fa-heart fa-2x"></i></td>
+    <td><button class="remove-product">Remove</button></td>
+  </tr>
+
+  <tr>
+    <td><input type="checkbox" class="check"></td>
+    <td><img class="product"src="https://beautystore.tn/9321-home_default/eponge-2-in-1-mixing.jpg"></td>
+    <td><input type="text" value="0" class="quantity" style="color: aliceblue;"><button class="add">+</button><button class="remove">-</button></td>
+    <td class="unitprice">50</td>
+    <td class="price">0</td>
+    <td><i class="fas fa-heart fa-2x"></i></td>
+    <td><button class="remove-product">Remove</button></td>
+  </tr>
+    </table>
+
+
+       
+  
+      
+      <button class="checkout"><i class="fas fa-shopping-cart"> </i><label> Total:</label><span id="total">0</span></button>
+
+
+    </body>
+    <script src="script.js"></script> <!-- script.js-->
+
+</html>
